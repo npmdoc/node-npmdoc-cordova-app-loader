@@ -1,6 +1,6 @@
 # npmdoc-cordova-app-loader
 
-#### api documentation for  cordova-app-loader (v1.0.0)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-app-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-app-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-app-loader.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-app-loader)
+#### basic api documentation for  cordova-app-loader (v1.0.0)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-app-loader.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-app-loader) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-app-loader.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-app-loader)
 
 #### Cordova App Loader - remote update your cordova app
 
@@ -67,7 +67,8 @@
         "prepublish": "npm run copy-tests && npm run autoupdate && npm run bootstrap && npm run cordova-app-loader && npm run copy-to-dist && npm run bundle && npm run minify-dist",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
